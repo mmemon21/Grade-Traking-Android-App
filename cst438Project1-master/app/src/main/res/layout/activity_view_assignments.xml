@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAssignmentsActivity"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/courseSpinner"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A54E6"
+        android:fontFamily="@font/bungee_inline"
+        android:gravity="center_horizontal"
+        android:text="Add Assignment"
+        android:textColor="#08D8F3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6470B5"
+        android:fontFamily="@font/bungee_inline"
+        android:gravity="center_horizontal"
+        android:text="Delete Assignment"
+        android:textColor="#08D8F3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A54E6"
+        android:fontFamily="@font/bungee_inline"
+        android:gravity="center_horizontal"
+        android:text="Edit Assignment"
+        android:textColor="#08D8F3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6470B5"
+        android:fontFamily="@font/bungee_inline"
+        android:gravity="center_horizontal"
+        android:text="Return"
+        android:textColor="#08D8F3"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F780E7F4"
+    tools:context=".EditProfileActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Change your password here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/endDateTextView">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/passwordChangeButton"
+        android:layout_width="121dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="226dp"
+        android:text="Change"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/newPassword"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="214dp"
+        android:hint="Change Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/passwordChangeButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="128dp"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordChangeButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
